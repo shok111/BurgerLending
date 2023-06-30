@@ -179,7 +179,8 @@ body {
 .info {}
 
 .info__new-menu {
-    display: inline-block;
+    display: inline-flex;
+    flex-wrap: nowrap;
     font-family: 'Gilroy';
     font-weight: 600;
     font-size: 18px;
@@ -188,7 +189,7 @@ body {
     background: #D3320F;
     border-radius: 100px;
     padding: 12px 16px;
-    max-width: 137px;
+    max-width: fit-content;
 }
 
 .info__title {
@@ -210,7 +211,8 @@ body {
 }
 
 .info__link {
-    display: inline-block;
+    display: inline-flex;
+    flex-wrap: nowrap;
     font-family: 'Gilroy';
     font-weight: 600;
     font-size: 18px;
@@ -220,7 +222,7 @@ body {
     background: linear-gradient(95.61deg, #DA8023 0%, #e2b438 100%);
     border-radius: 8px;
     padding: 20px 63px;
-    max-width: 260px;
+    max-width: fit-content;
     /* transition: opacity 0.3s; */
     transition: background 0.3s ease-out;
     cursor: pointer;
