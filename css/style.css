@@ -179,6 +179,7 @@ body {
 .info {}
 
 .info__new-menu {
+    white-space: nowrap;
     display: inline-flex;
     flex-wrap: nowrap;
     font-family: 'Gilroy';
@@ -381,6 +382,7 @@ body {
     }
 
     .info__link {
+        white-space: nowrap;
         font-family: 'Gilroy';
         font-weight: 600;
         font-size: 18px;
