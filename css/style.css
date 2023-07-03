@@ -477,6 +477,10 @@ body {
         padding-bottom: 30px;
     }
 
+    .info__new-menu {
+        margin-bottom: 10px;
+    }
+
     .info__title {
         position: relative;
         font-size: 60px;
