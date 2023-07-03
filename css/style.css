@@ -409,6 +409,13 @@ body {
     }
 
     .main__container {
+        position: relative;
+        display: flex;
+        margin-top: -130px;
+        padding-top: 250px;
+    }
+
+    .main__container {
         padding-bottom: 20px;
     }
 
@@ -472,6 +479,8 @@ body {
 }
 
 @media (max-width:510px) {
+
+
     .main__info {
         flex: 0 0 90%;
         padding-bottom: 30px;
